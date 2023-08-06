@@ -1,0 +1,27 @@
+Step 1: set up python environment
+
+Step 1: install python 11
+Step 1.0: when installing set path to desired location for installing
+    C:\Python\Python311
+Step 1.1: add python 11 path to environment variables 
+    C:\Python\Python311
+    C:\Python\Python311\Scripts\
+    To verify "echo %PATH%" in a new cmd you should see both the path in path
+    
+Step 2: Set up python environment
+    C:\Python\Python311\python.exe -m venv .venv
+    
+Step 3: Activate python environment
+    .venv\Scripts\activate.bat
+    To verify "python --version" you should see 3.11
+
+Step 4: install required packages
+    pip install -r requirements.txt
+
+Step 5: run 
+    python post.py
+
+    q to quit
+
+Step 6: deactivate python environment
+    deactivate
