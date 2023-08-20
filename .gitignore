@@ -54,3 +54,6 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# enviroment file for api
+.env
