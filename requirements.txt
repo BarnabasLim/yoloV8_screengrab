@@ -51,3 +51,7 @@ ultralytics
 
 #Other lib
 mss #for screenshot
+logger>=1.4
+
+python-telegram-bot==13.13
+python-dotenv==1.0.0

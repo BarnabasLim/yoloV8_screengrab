@@ -18,10 +18,13 @@ Step 3: Activate python environment
 Step 4: install required packages
     pip install -r requirements.txt
 
-Step 5: run 
+Step 5:
+    change ".env_sample" to ".env" and make sure to follow the comments in get "TOKEN" and "CHANNEL_ID"
+
+Step 6: run 
     python post.py
 
     q to quit
 
-Step 6: deactivate python environment
+Step 7: deactivate python environment
     deactivate
